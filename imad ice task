@@ -1,0 +1,11 @@
+fun main() {
+    val ageInYears = 15
+    val yearsUntil100 = 100 - ageInYears
+    val ageInMonths = ageInYears * 12
+    val remainder = ageInYears % 5
+
+    println("Student age in years: $ageInYears")
+    println("Student age in months: $ageInMonths")
+    println("Years until student turns 100: $yearsUntil100")
+    println("Remainder when age is divided by 5: $remainder")
+}
